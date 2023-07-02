@@ -9,7 +9,7 @@ class MyLinkedList(object):
         self.head = None
         self.size = 0        
 
-    def get(self, index: int) -> int:
+    def get(self, index):
         """
         :type index: int
         :rtype: int
@@ -21,7 +21,7 @@ class MyLinkedList(object):
             temp = temp.next
         return temp.val
 
-    def addAtHead(self, val: int) -> int:
+    def addAtHead(self, val):
         """
         :type val: int
         :rtype: None
@@ -49,7 +49,7 @@ class MyLinkedList(object):
         
         
 
-    def addAtIndex(self, index: int, val:int) -> None:
+    def addAtIndex(self, index, val):
         """
         :type index: int
         :type val: int
